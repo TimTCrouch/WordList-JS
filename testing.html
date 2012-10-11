@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <script src="src/wordListMinV0.2.js"></script>
+    <script src="src/wordBankMinV0.2.js"></script>
+    <script>       
+        
+        //Test that a word is in the list
+        var cWord = "xylol";
+        if (Word_List.isInList(cWord)) {
+            alert(cWord + " was there!");
+        } else {
+            alert(cWord + " was NOT there...");
+        }
+        
+        //Test that a word is NOT in the list
+        var cWord = "ab234ol";
+        if (Word_List.isInList(cWord)) {
+            alert(cWord + " was there!");
+        } else {
+            alert(cWord + " was NOT there...");
+        }
+        
+        //Test the random word generator with random letter counts
+        for (var x = 0; x < 5; x++) {
+            alert("Random word: " + Word_List.getRandomWord(0));
+        }
+        
+    
+    
+        
+    </script>
+</head>
+
+<body>
+<p>This is the test bed.</p>
+
+
+</body>
+</html>
