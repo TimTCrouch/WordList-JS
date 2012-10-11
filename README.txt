@@ -13,8 +13,8 @@ Without the EOWL, I would be reading and typing words out of the dictionary for 
 
 ======Instructions========
 
-1. Add a script tag referencing either the Dev or Min version of wordList<Dev/Min>V0.2.js into your main page's head section (use Dev to see the full code, or use Min version for production or app compilation).
+1. Add a script tag referencing either the regular or Min version of wordList<Min>V0.2.js into your main page's head section (use regular version to see the full code, or use Min version for production or app compilation).
 
-2. Add a script tag referencing either the Dev or Min version of wordBank<Dev/Min>V0.2.js into your main page's head section (use Dev to see the full code, or use Min version for production or app compilation). Make sure the Word Bank is BELOW the script tag for Word List. 
+2. Add a script tag referencing either the regular or Min version of wordBank<Min>V0.2.js into your main page's head section (use regular version to see the full code, or use Min version for production or app compilation). Make sure the Word Bank is BELOW the script tag for Word List. 
 
 3. Either in another script file or an on-page script, simply reference Word_List.isInList("ALpha") to check if a word is in the list. Capitalization does not matter (as demonstrated here). You can also generate random words with Word_List.getRandomWord(). You can enter a number from 4 - 10 as an argument to look-up words with only that number of letters. You can also either make the argument 0 or leave it blank to get a random word with a random number of letters between 4 - 10. 
