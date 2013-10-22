@@ -49,9 +49,9 @@ var Word_List = (function() {
         //check if the word is the correct length and repeat if not
         do {
 		        //Randomly choose the number of an element in the correct wordBank letter array
-            wordNum = Math.floor(Math.random() * wordBank[checkLetter].length);        
-      			wordPick = wordBank[checkLetter][wordNum - 1];
-        } while (wordPick.length != letterCount)
+            wordNum = Math.floor(Math.random() * wordBank[checkLetter].length);
+      			wordPick = wordBank[checkLetter][wordNum];
+        } while (wordPick.length != letterCount);        
         
         return wordPick;     
     }
